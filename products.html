@@ -1,0 +1,94 @@
+<html lang="en"></html>
+
+</html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About-page</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="home.js">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand me-5 fw-bold" href="#">Ecommerce</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="ms-5"></div>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="home (1).html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="about-js.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact-js.html">Contact</a>
+          </li>
+
+        </ul>
+        <div>
+          <a href="#"><button type="button" class="btn btn-dark"><i
+                class="fa-solid fa-right-to-bracket"></i>Login</button></a>
+          <a href="#"><button type="button" class="btn btn-dark"><i
+                class="fa-solid fa-right-to-bracket"></i>Register</button></a>
+          <a href="cart-js.html"><button type="button" class="btn btn-dark"><i
+                class="fa-solid fa-right-to-bracket"></i>Cart(0)</button></a>
+
+        </div>
+      </div>
+    </div>
+  </nav><br>
+  <div class="d-flex justify-content-center border-bottom border-2">
+    <h4>Latest Products</h4>
+  </div><br>
+
+  <div class="container">
+    <div class="row m-5">
+      <div class="col-sm-none col-lg-1 col-md-none"></div>
+      <div class="col-sm-12 col-lg-1 mb-2 col-md-6">
+        <button type="button" onclick="add('all')" class="btn btn-outline-dark me-2">All</button>
+      </div>
+      <div class="col-sm-12 col-lg-2 mb-2 col-md-6">
+        <button type="button" onclick="add('men\'s clothing')" class="btn btn-outline-dark me-2 fs-6 fw-normal " style= 'width:130px;' id="mensClothing">Mens Clothing</button>
+      </div>
+      <div class="col-sm-12 col-lg-2 mb-2 col-md-6 me-0" style="width: 194px;">
+        <button type="button" onclick="add('women\'s clothing')" class="btn btn-outline-dark me-2">Womens Clothing</button>
+      </div>
+      <div class="col-sm-12 col-lg-2 mb-2 col-md-6">
+        <button type="button" onclick="add('jewelery')" class="btn btn-outline-dark me-2">jewelery</button>
+      </div>
+      <div class="col-sm-12 col-lg-2 mb-2 col-md-6">
+        <button type="button" onclick="add('electronics')" class="btn btn-outline-dark">Electronics</button>
+      </div>
+      <!-- <div class="col-sm-none col-lg-1 col-md-none"></div> -->
+   </div>
+</div>
+
+<div class="container">
+  <div class="row " id="row">
+    </div>
+    </div>
+
+    <div class="container d-flex justify-content-center">
+      <p>Made with <span>&#x2764;by <a href="">Venkata Rikitha</a></span></p>
+    </div>
+  
+
+<script src="home.js"></script>
+</body>
+</html>
